@@ -11,7 +11,7 @@ class Team
     hash = {}
     hash[:team_name] = @name
     hash[:level] = @level
-    hash[:points] = @points
+    hash[:points] = @members
     return hash
   end
 
